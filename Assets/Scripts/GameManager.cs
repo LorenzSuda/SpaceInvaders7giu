@@ -134,8 +134,6 @@ public class GameManager : MonoBehaviour
     {
         score += newPoints;
         scoreText.text = $"Score:\n{score}";
-        GameObject powerUp = FindFirstObjectByType<GameManager>().powerUp;
-        Instantiate(powerUp, transform.position + Vector3.down * 30, powerUp.transform.rotation);
     }
 
     public void GameOver() {

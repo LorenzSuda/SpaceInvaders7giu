@@ -50,4 +50,9 @@ public class PowerUp : MonoBehaviour
             other.gameObject.GetComponent<PlayerManager>().StartPowerUp();
         }
     }
+
+    private void OnDestroy()
+    {
+        Debug.Log("Destroyed");
+    }
 }

@@ -163,6 +163,8 @@ public class EnemyManager : MonoBehaviour
 
     public void WasHit() //alieno colpito
     {
+        GameObject powerUp = FindFirstObjectByType<GameManager>().powerUp;
+        Instantiate(powerUp, transform.position, powerUp.transform.rotation);
         gameManager.DidHitEnemy(hitPoints);
     }
 }
