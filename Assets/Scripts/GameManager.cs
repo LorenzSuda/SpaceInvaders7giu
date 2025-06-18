@@ -57,8 +57,11 @@ public class GameManager : MonoBehaviour
     
 //Gamer over    
     [SerializeField] GameObject gameOverCanvas;
-  
     
+//ScriptableObject    
+ public Stats stats; //per vedere se funziona il SO
+ public Stats [] stats2; //per vedere se funziona il SO array
+
     void Start()
     {
         //imposto il punteggio 

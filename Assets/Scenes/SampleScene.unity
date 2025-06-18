@@ -1211,6 +1211,8 @@ MonoBehaviour:
   scoreText: {fileID: 1294138049}
   scoreBestText: {fileID: 1294138049}
   gameOverCanvas: {fileID: 1847064291}
+  stats: {fileID: 0}
+  stats2: []
 --- !u!4 &1847209089
 Transform:
   m_ObjectHideFlags: 0
